@@ -1,6 +1,6 @@
 
-USB-IR - V-USB based IR receiver
-================================
+USB-IR - IR receiver based on V-USB
+===================================
 
 ![HID IR Remote](https://github.com/visakhanc/usb-ir/blob/master/pic/side-2.jpg)
 
@@ -18,6 +18,6 @@ bootloadHID.exe -r main.hex
 Examples
 --------
 
-[HID IR Remote](https://github.com/visakhanc/usb-ir/firmware/hid-ir-remote) : Demonstrates the usage of USB-IR as a multimedia remote control receiver for PC. Sony IR protocol (SIRC) is used here. Implemented functions are: Volume Up/Down, Next, Previous, Pause, Play, Stop, Mute.
+[HID IR Remote](https://github.com/visakhanc/usb-ir/blob/master/firmware/hid-ir-remote) : Demonstrates the usage of USB-IR as a multimedia remote control receiver for PC. Sony IR protocol (SIRC) is used here. Implemented functions are: Volume Up/Down, Next, Previous, Pause, Play, Stop, Mute.
 
 
