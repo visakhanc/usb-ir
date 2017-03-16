@@ -1,0 +1,18 @@
+# Name: Makefile.windows
+# Project: Remote Sensor
+# Author: Christian Starkjohann
+# Creation Date: 2006-12-03
+# Tabsize: 4
+# Copyright: (c) 2006 by OBJECTIVE DEVELOPMENT Software GmbH
+# License: GNU GPL v2 (see License.txt) or proprietary (CommercialLicense.txt)
+# This Revision: $Id$
+
+# You may use this file with
+#   make -f Makefile.windows
+# on Windows with MinGW instead of editing the main Makefile.
+
+include Makefile
+
+CFLAGS    = -I/usr/local/mingw/include -O -Wall
+LIBS      = -L/usr/local/mingw/lib -lusb
+EXE_SUFFIX= .exe

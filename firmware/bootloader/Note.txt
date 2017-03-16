@@ -1,0 +1,11 @@
+This is HID bootloader modified for the USB-IR hardware with PORTD:1 as boot pin
+XTAL: 12 MHz (chage in makefile)
+Bootloader switch: PORTD:1 (change in bootloader_config.h)
+
+STEPS:
+
+1. make fuse
+2. make flash
+3. make lock (optional)
+
+
