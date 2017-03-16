@@ -2,7 +2,7 @@
 USB-IR - V-USB based IR receiver
 ================================
 
-![HID IR Remote](usb-ir/pic/side-2.jpg)
+![HID IR Remote](https://github.com/visakhanc/usb-ir/blob/master/pic/side-2.jpg)
 
 USB-IR is an infrared remote control receiver with a USB communication enabled by v-usb usb stack. So, it can be programmed as an IR receiver for PC with specific functions assigned to various keys of a remote control.
 
