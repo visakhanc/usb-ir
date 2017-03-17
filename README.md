@@ -10,9 +10,10 @@ USB-IR is an infrared remote control receiver with a USB communication enabled b
 HID Bootloader option
 ---------------------
 
-Firmware updates can be done through USB itself! For this, HID bootloader should be flashed into the AVR through ISP pins. 
-To enter bootloader mode, press and hold the button while plugging the USB; it will get detected as 'HIDBoot' device.  After this, the command line tool for HID bootloader can be used to load hex files. Like this:
+Firmware updates can be done through USB itself! For this, HID bootloader should be initially flashed into the AVR through ISP pins. After this, to program firmware using bootloader, just plug in the USB while pressing and holding the button. It will get detected as 'HIDBoot' device. Now use the command line tool for HID bootloader to program hex files. like this:
 bootloadHID.exe -r main.hex
+
+Find the HID bootloader here: [HID bootloader](https://github.com/visakhanc/vusb_projects/tree/master/bootloadHID.2012-12-08)
 
 
 Examples
